@@ -1,12 +1,57 @@
+@font-face {
+    font-family: 'CodaHeavy';
+    src: url('coda/Coda-Heavy-webfont.eot');
+    src: url('coda/Coda-Heavy-webfont.eot?#iefix') format('embedded-opentype'),
+         url('coda/Coda-Heavy-webfont.woff') format('woff'),
+         url('coda/Coda-Heavy-webfont.ttf') format('truetype'),
+         url('coda/Coda-Heavy-webfont.svg#CodaHeavy') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+::selection {
+    background: #DD4B4B;
+    color: #fff;
+    text-shadow: none !important;
+}
 body {
     min-width: 960px;
     margin: 0 auto;
     background: #D4D4D4;
     font-family: Helvetica, Arial, "Nimbus Sans L", sans-serif;
     font-size: 82.5%;
+    text-shadow: 1px 1px 0 #fff;
+    color: #212121;
+}
+a {
+    color: #000;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    transition: color .5s linear;
+}
+a:hover, a:focus {
+    color: #DD4B4B;
+    transition: color .15s linear;
 }
 header {
     padding: 0 120px 0;
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+}
+header h1 {
+    font-family: 'CodaHeavy';
+    font-size: 2.4em;
+    position: absolute;
+    margin: 20px 0 0 170px;
+    color: #DD4B4B;
+    letter-spacing: 1.4px;
+    text-shadow: 2px 4px 0 #000;
+}
+header p {
+    margin: 15px 0 0 520px;
+    width: 300px;
+    line-height: 1.7;
+    position: absolute;
 }
 #header-bg {
     height: 100px;
@@ -29,6 +74,21 @@ header {
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     box-shadow: 4px 4px 2px #888;
+    transition: border-width .25s ease;
+}
+#headshot:hover {
+    border-width: 12px;
+    transition: border-width .25s ease;
+}
+#linkedin {
+    width: 32px;
+    height: 32px;
+    margin: 50px 50px 0 0;
+    position: relative;
+    background: url(images/linkedin.png) 0 0 no-repeat transparent;
+}
+#linkedin:hover {
+    background: url(images/linkedin.png) 0 -32px no-repeat transparent;
 }
 #content {
 }
