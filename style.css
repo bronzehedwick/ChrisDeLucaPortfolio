@@ -91,11 +91,31 @@ header p {
     background: url(images/linkedin.png) 0 -32px no-repeat transparent;
 }
 #content {
+    margin: 100px 80px 0 80px;
+}
+nav {
+    margin: 0 0 120px 0;
+    padding: 20px;
+    background: #6B6B6B;
+    font-size: 1.3em;
+    line-height: 2;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: right;
+    border-radius: 10px;
+    box-shadow: inset 1px 2px 5px #000;
+}
+nav ul {
+    list-style-type: square;
+    list-style-position: inside;
+    direction: rtl;
 }
 footer {
+    margin-bottom: 40px;
 }
 #stackoverflow {
-    margin-top: 200px; /*Testing only*/
+   margin-top: 58px; 
+}
+#github-badge {
 }
 .float-left {
     float: left;
