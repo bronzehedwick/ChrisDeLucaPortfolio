@@ -93,6 +93,42 @@ header p {
 #content {
     margin: 100px 80px 0 80px;
 }
+.container {
+    width: 550px;
+    height: 550px;
+    position: relative;
+    perspective: 1000px;
+}
+#cube {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+}
+#cube figure {
+    width: 540px;
+    height: 540px;
+    display: block;
+    position: absolute;
+    border: 2px solid black;
+}
+#cube .front  { transform: rotateY(   0deg ); translateZ( 275px ); }
+#cube .back   { transform: rotateX( 180deg ); translateZ( 275px ); }
+#cube .right  { transform: rotateY(  90deg ); translateZ( 275px ); }
+#cube .left   { transform: rotateY( -90deg ); translateZ( 275px ); }
+#cube .top    { transform: rotateX(  90deg ); translateZ( 275px ); }
+#cube .bottom { transform: rotateX( -90deg ); translateZ( 275px ); }
+#cube { translateZ( -275px ); }
+#cube .show-front   { transform: translateZ( -275px ); rotateY(    0deg ); }
+#cube .show-back    { transform: translateZ( -275px ); rotateX( -180deg ); }
+#cube .show-right   { transform: translateZ( -275px ); rotateY(  -90deg ); }
+#cube .show-left    { transform: translateZ( -275px ); rotateY(   90deg ); }
+#cube .show-top     { transform: translateZ( -275px ); rotateX(  -90deg ); }
+#cube .show-bottom  { transform: translateZ( -275px ); rotateX(   90deg ); }
+#cube { transition: transform 1s; }
+#cube figure {
+    font-size: 200%;
+}
 nav {
     margin: 0 0 120px 0;
     padding: 20px;
