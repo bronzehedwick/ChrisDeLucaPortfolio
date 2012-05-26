@@ -118,7 +118,7 @@ header p {
 #cube .left   { transform: rotateY( -90deg ); translateZ( 275px ); }
 #cube .top    { transform: rotateX(  90deg ); translateZ( 275px ); }
 #cube .bottom { transform: rotateX( -90deg ); translateZ( 275px ); }
-#cube { translateZ( -275px ); }
+/*#cube { translateZ( -275px ); }*/
 #cube .show-front   { transform: translateZ( -275px ); rotateY(    0deg ); }
 #cube .show-back    { transform: translateZ( -275px ); rotateX( -180deg ); }
 #cube .show-right   { transform: translateZ( -275px ); rotateY(  -90deg ); }
@@ -132,7 +132,7 @@ header p {
 nav {
     margin: 0 0 120px 0;
     padding: 20px;
-    background: #6B6B6B;
+    background: #9A9A9A;
     font-size: 1.3em;
     line-height: 2;
     font-family: 'Ubuntu', sans-serif;
@@ -143,7 +143,7 @@ nav {
 nav ul {
     list-style-type: square;
     list-style-position: inside;
-    direction: rtl;
+    text-align: left;
 }
 footer {
     margin-bottom: 40px;
