@@ -6,10 +6,12 @@
     <link rel="stylesheet" type="text/css" href="reset.css" />
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link href='http://fonts.googleapis.com/css?family=Ubuntu:500' rel='stylesheet' type='text/css'>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <!--[if lt IE 9]>
         <script src="dist/html5shiv.js"></script>
     <![endif]-->
+    <script src="utils.js"></script>
+    <script src="cube.js"></script>
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -37,7 +39,6 @@
         </section>
 
         <section class="float-left" id="options">
-
           <p id="show-buttons">
             <button class="show-front" id="button-front">Show 1</button>
             <button class="show-back" id="button-back">Show 2</button>
@@ -46,11 +47,21 @@
             <button class="show-top" id="button-top">Show 5</button>
             <button class="show-bottom" id="button-bottom">Show 6</button>
           </p>
-
         </section>
 
-        <script src="utils.js"></script>
-        <script src="cube.js"></script>
+        <section id="description" class="float-left">
+          <p class="visible" id="desc-one">Lorizzle ipsum dolizzle sit amet, fo shizzle my nizzle adipiscing mammasay mammasa mamma oo sa. Nullizzle ass ma nizzle, izzle volutpat, suscipizzle i'm in the shizzle, bow wow wow brizzle, dawg. Pellentesque pizzle tortor. Crackalackin erizzle. izzle dolizzle dapibizzle turpizzle tempizzle we gonna chung. Maurizzle stuff nibh shizzle my nizzle crocodizzle turpizzle. Shizznit izzle fo. Pellentesque eleifend rhoncizzle nisi. In mammasay mammasa mamma oo sa habitasse platea dictumst. Funky fresh dapibizzle. Go to hizzle fizzle phat, fizzle away, mattizzle get down get down, away vitae, nunc. Shit suscipizzle. Da bomb shizzlin dizzle shiz sizzle owned.</p>
+          <p class="hidden" id="desc-two">Lobster my mobster! The only place to run is the last place to hide. I rode in on a donkey and am trying to get hitched with an alegator. To the bat suite! Hello mr butterstick, I didn't know you where stinking up the place tonight. I am the second to last person in the world; the first to last person is doing the ratings. I nearly lost my monocle! That's right reggie, only suckers play badmitten. Tools for fool and fabric for playthings. Nursery rhymes for crimes and desktops for potty farts. Those wrascley snatch bunches! I never met a percentage that didn't make me look at a symbol. To the bat cave! Aboot about above a glove and trunk.</p>
+          <p class="hidden" id="desc-three">Qui cu utinam soluta. Pericula disputando an nam. Pro ea elitr ignota. In doctus aperiam accusamus vel, nam id sanctus alienum complectitur, quo alia legere te. Sea dicunt appellantur eu, ad stet meis viris vel.<br />Debet assentior per ut, et instructior necessitatibus mei. Illud placerat delicata vis ex, id sit utinam putant iracundia, sit cu corrumpit dissentias. Sed te consul habemus sapientem. Option saperet eos id, enim gubergren eum ea. Eu mea odio dicam fabulas, no qui meliore moderatius. Pri case mentitum percipit an.</p>
+          <p class="hidden" id="desc-four">Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
+          <p class="hidden" id="desc-five">Pants Weevil says:<br />
+          My name is Pants Weevil, because I am a pants weevil. And that's weevil, not weasel. I get really pissed off when someone calls me a pants weasel. That's something else altogether. When I get pissed off, I bite, so watch it, okay? Monkey boy said I was his best friend which is really funny because he's always trying to squish me. But one thing about us parasites: if you have parasites you're never alone in the world. And if you're a parasite yourself, you're never alone in the world, either. Of course, that's a mixed blessing. When your lifelong companion is Monkey boy, being alone might be a more attractive option.<br />
+          I never met my Mom. She laid her eggs on Monkey boy and then disappeared. Maybe his Mom ate her. My siblings have wandered off to more attractive hosts, but Monkey boy suits me okay. He's lots of fun, actually.<br />
+    Like, it's fun to crawl into his ear and whisper stuff to him. Like, "Is it still there?" Whenever I do that, he feels his crotch. It's an old joke with us pants weevils.
+    Would you like me to cast your horoscope? Yeah? If so, then read your horoscope!</p>
+    <p class="hidden" id="desc-six">A 43-year-old woman is undergoing surgery after two rocks that she collected at a South County beach ignited in the pocket of her shorts, officials from Orange County Fire Authority said.<br />
+    The incident happened about 3:30 p.m. Saturday when the woman was standing in her kitchen after returning from an outing to Trestles Beach. She had been home for about an hour when the pocket of her cargo shorts caught fire, OCFA Capt. Marc Stone said.</p>
+        </section>
 
         <footer class="clearfix">
             <div id="stackoverflow" class="float-left">
@@ -67,5 +78,6 @@
         </footer>
 
     </div>
+
 </body>
 </html>
