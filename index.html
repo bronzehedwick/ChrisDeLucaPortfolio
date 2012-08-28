@@ -25,7 +25,7 @@
         	<li><a href="http://www.youtube.com/crooks8nannies" title="YouTube" class="icon">&#88;</a></li>
         	<li><a href="http://www.twitter.com/chrisjohndeluca" title="Twitter" class="icon">&#76;</a></li>
         	<li><a href="http://www.chrisdeluca.wordpress.com" title="Wordpress" class="icon">&#87;</a></li>
-        	<li><a href="http://www.linkedin.com/in/christopherdeluca" title="Linkedin" class="icon">&#73;</a></li>
+        	<li><a href="http://www.linkedin.com/in/christopherdeluca" title="LinkedIn" class="icon">&#73;</a></li>
       </ul>
     </header>
 
@@ -36,7 +36,7 @@
             <div id="cube" class="show-front">
               <figure class="front"><img src="images/IMG_0238.JPG" alt="flowers" /></figure>
               <figure class="back"><img src="images/BaldursGate2_08_1920x1200.jpg" alt="dragon" /></figure>
-              <figure class="right"><img src="images/coppers.jpg" alt="coppers" /></figure>
+              <figure class="right"><iframe width="400" height="300" src="http://www.youtube.com/embed/soX8O5wdb_E" frameborder="0" allowfullscreen></iframe></figure>
               <figure class="left"><img src="images/adamRunning.jpg" alt="adam" /></figure>
               <figure class="top"><img src="images/cg_artwork_wallpapers_collection_2_15_sweet_wallpapers-s1600x1200-63204.jpg" alt="clockwork" /></figure>
               <figure class="bottom"><img src="images/McCarthyShmcarthy.jpg" alt="andy" /></figure>
@@ -69,17 +69,73 @@
         </section>
 
         <footer class="clearfix">
-            <div id="stackoverflow" class="float-left">
+            <section id="twitter-feed">
+            <h3><span class="icon">&#116;</span>Twitter</h3>
+            	<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+							<script>
+                new TWTR.Widget({
+                  version: 2,
+                  type: 'profile',
+                  rpp: 4,
+                  interval: 30000,
+                  width: 250,
+                  height: 300,
+                  theme: {
+                    shell: {
+                      background: '#6B6B6B',
+                      color: '#ffffff'
+                    },
+                    tweets: {
+                      background: '#6B6B6B',
+                      color: '#212121',
+                      links: '#D86A6A'
+                    }
+                  },
+                  features: {
+                    scrollbar: false,
+                    loop: false,
+                    live: false,
+                    behavior: 'all'
+                  }
+                }).render().setUser('chrisjohndeluca').start();
+              </script>
+            </section>
+            <section id="badges">
+            <h3><span class="icon">&#50;</span>Social Coding</h3>
+              <figure id="stackoverflow">
                 <a href="http://stackoverflow.com/users/1143575/bronzehedwick">
                     <img src="http://stackoverflow.com/users/flair/1143575.png?theme=dark" width="208" height="58" alt="profile for bronzehedwick at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for bronzehedwick at Stack Overflow, Q&amp;A for professional and enthusiast programmers" />
                 </a>
-            </div>
-            <div id="github-badge" class="float-right">
-                <iframe src="http://githubbadge.appspot.com/badge/bronzehedwick?s=1" style="border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder=0></iframe>
-            </div>
-            <div id="legal" class="clearfix">
+              </figure>
+              <figure id="github-badge">
+                  <iframe src="http://githubbadge.appspot.com/badge/bronzehedwick?s=1" style="border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder=0></iframe>
+              </figure>
+            </section>
+            <section id="favorites">
+              <h3><span class="icon">&#8208;</span>Favorites</h3>
+              <ul>
+                <li><a href="http://vim.spf13.com">spf13 vim</a></li>
+                <li><a href="http://xkcd.com">xkcd</a></li>
+                <li><a href="http://www.giantitp.com/Comics.html">Order of the Stick</a></li>
+                <li><a href="http://codeacademy.com">Code Academy</a></li>
+                <li><a href="http://clientsfromhell.net">Clients From Hell</a></li>
+                <li><a href="http://myabadonware.com">My Abandonware</a></li>
+                <li><a href="http://gog.com">GOG</a></li>
+                <li><a href="http://khaaan.com">Khaaan!</a></li>
+                <li><a href="http://pcg.wikia.com/wiki/Main_Page">Paper Computer Games</a></li>
+                <li><a href="http://archlinux.org">Arch Linux</a></li>
+                <li><a href="http://git-scm.com">Git</a></li>
+                <li><a href="http://gutenberg.org">Project Gutenberg</a></li>
+                <li><a href="http://redlettermedia.com/plinkett/star-wars/">Red Letter Media Star Wars</a></li>
+                <li><a href="http://privateerpress.com/iron-kingdoms">Iron Kingdoms</a></li>
+                <li><a href="http://youmakemetouchyourhandsforstupidreasons.ytmnd.com/">YTMND</a></li>
+                <li><a href="http://www.script-o-rama.com/snazzy/dircut.html">Script O' Rama</a></li>
+                <li><a href="http://ski.ihoc.net/">Ski Free</a></li>
+              </ul>
+            </section>
+            <section id="legal" class="clearfix">
                 <a href="http://fontfabric.com">http://fontfabric.com</a>
-            </div>
+            </section>
         </footer>
 
     </div>

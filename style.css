@@ -33,10 +33,15 @@
 	font-family: socialicoregular;
 	font-size: 2.5em;
 }
+::-moz-selection {
+  background: #DD4B4B;
+  color: #fff;
+  text-shadow: none !important;
+}
 ::selection {
-    background: #DD4B4B;
-    color: #fff;
-    text-shadow: none !important;
+  background: #DD4B4B;
+  color: #fff;
+  text-shadow: none !important;
 }
 
 /**
@@ -67,25 +72,36 @@ a:hover, a:focus {
   	  -o-transition: color .15s linear;
   		transition: color .15s linear;
 }
+h1, h2, h3 {
+  font-family: 'CodaHeavy';
+  color: #DD4B4B;
+  letter-spacing: 1.4px;
+  text-shadow: 2px 2px 0 #000;
+}
+h1 {
+  text-shadow: 2px 4px 0 #000;
+  font-size: 2.4em;
+}
+h2 {
+  font-size: 2.0em;
+}
+h3 {
+   font-size: 1.8em;
+}
 header {
   padding: 0 120px 0;
   font-family: 'Ubuntu', sans-serif;
   position: relative;
-}
-header h1 {
-  font-family: 'CodaHeavy';
-  font-size: 2.4em;
-  position: absolute;
-  margin: 20px 0 0 170px;
-  color: #DD4B4B;
-  letter-spacing: 1.4px;
-  text-shadow: 2px 4px 0 #000;
 }
 header p {
   margin: 15px 0 0 340px;
   width: 300px;
   float: left;
   line-height: 1.7;
+}
+header h1 {
+  position: absolute;
+  margin: 20px 0 0 170px;
 }
 #header-bg {
   height: 100px;
@@ -171,16 +187,7 @@ section#options button:hover {
 #social-icons a {
 	text-decoration: none;
 }
-footer {
-  background: #6B6B6B;
-  margin-bottom: 40px;
-}
-#stackoverflow {
-   margin-top: 58px; 
-}
-#github-badge {
-}
-section#description {
+#description {
   width: 360px;
   padding: 20px;
   line-height: 1.2em;
@@ -189,6 +196,59 @@ section#description {
   border-radius: 10px;
   box-shadow: inset 1px 2px 5px #000;
   margin: 30px 0 0 55px;
+}
+footer {
+  width: 100%;
+  background: #6B6B6B;
+  text-shadow: none;
+  box-shadow: 0 -2px 15px #333;
+}
+footer li {
+  list-style-type: lower-greek;
+}
+footer figure, footer ul, footer h3 {
+  margin: 10px auto 20px;
+  width: 248px;
+}
+footer div {
+  margin: 0 auto;
+}
+footer ul {
+  margin-right: 80px;
+}
+footer .icon {
+  font-size: 1.5em;
+  color: #212121;
+  text-shadow: none;
+  position: relative;
+  top: 3px;
+  padding-right: 5px;
+}
+#badges figure {
+  margin-right: 100px;
+}
+#twtr-widget-1 {
+  width: 245px;
+}
+#twtr-widget-1 h3 {
+  color: inherit;
+  font-family: inherit;
+  letter-spacing: inherit;
+  text-shadow: none;
+}
+#twitter-feed, #badges, #favorites {
+  width: 33%;
+  float: left;
+}
+#favorites li {
+  padding-bottom: 10px;
+}
+#stackoverflow {
+}
+#github-badge {
+}
+#legal {
+  text-align: center;
 }
 
 /**
