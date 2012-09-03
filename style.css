@@ -55,6 +55,7 @@ body {
   font-size: 82.5%;
   text-shadow: 1px 1px 0 #fff;
   color: #212121;
+  line-height: 1.2em;
 }
 a {
   color: #212121;
@@ -87,6 +88,18 @@ h2 {
 }
 h3 {
    font-size: 1.8em;
+}
+p {
+	margin-bottom: 10px;
+}
+br {
+	margin: 5px 0;
+}
+em {
+	font-style: italic;
+}
+strong {
+	font-weight: bold;
 }
 header {
   padding: 0 120px 0;
@@ -190,7 +203,7 @@ section#options button:hover {
 #description {
   width: 360px;
   padding: 20px;
-  line-height: 1.2em;
+  line-height: 1.4em !important;
   font-family: 'Ubuntu', sans-serif;
   background: #D4D4D4;
   border-radius: 10px;
@@ -245,6 +258,8 @@ footer .icon {
 }
 #legal {
   text-align: center;
+  padding: 40px 0;
+  font-size: 0.8em;
 }
 iframe {
 	margin-top: 85px;
@@ -383,13 +398,16 @@ iframe {
  * Utility
  */
 .float-left {
-    float: left;
+  float: left;
+}
+img.float-left {
+	padding-right: 15px;
 }
 .float-right {
-    float: right;
+  float: right;
 }
 .clearfix {
-    clear: both;
+  clear: both;
 }
 .hidden {
   display: none;
