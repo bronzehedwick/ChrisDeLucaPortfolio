@@ -256,8 +256,10 @@ footer .icon {
 #favorites li {
   padding-bottom: 10px;
 }
-#legal {
+#about, #legal {
   text-align: center;
+}
+#legal {
   padding: 40px 0;
   font-size: 0.8em;
 }
@@ -400,7 +402,7 @@ iframe {
 .float-left {
   float: left;
 }
-img.float-left {
+#content img.float-left {
 	padding-right: 15px;
 }
 .float-right {
