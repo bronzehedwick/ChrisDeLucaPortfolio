@@ -9,22 +9,22 @@
  */
 @font-face {
     font-family: 'CodaHeavy';
-    src: url('coda/Coda-Heavy-webfont.eot');
-    src: url('coda/Coda-Heavy-webfont.eot?#iefix') format('embedded-opentype'),
-         url('coda/Coda-Heavy-webfont.woff') format('woff'),
-         url('coda/Coda-Heavy-webfont.ttf') format('truetype'),
-         url('coda/Coda-Heavy-webfont.svg#CodaHeavy') format('svg');
+    src: url('fonts/coda/coda-Heavy-webfont.eot');
+    src: url('fonts/coda/coda-Heavy-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/coda/coda-Heavy-webfont.woff') format('woff'),
+         url('fonts/coda/coda-Heavy-webfont.ttf') format('truetype'),
+         url('fonts/coda/coda-Heavy-webfont.svg#fonts/codaHeavy') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
 @font-face {
     font-family: 'socialicoregular';
-    src: url('socialico/socialico-webfont.eot');
-    src: url('socialico/socialico-webfont.eot?#iefix') format('embedded-opentype'),
-         url('socialico/socialico-webfont.woff') format('woff'),
-         url('socialico/socialico-webfont.ttf') format('truetype'),
-         url('socialico/socialico-webfont.svg#socialicoregular') format('svg');
+    src: url('fonts/socialico/socialico-webfont.eot');
+    src: url('fonts/socialico/socialico-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/socialico/socialico-webfont.woff') format('woff'),
+         url('fonts/socialico/socialico-webfont.ttf') format('truetype'),
+         url('fonts/socialico/socialico-webfont.svg#socialicoregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
