@@ -118,6 +118,7 @@ header h1 {
 }
 #header-bg {
   height: 100px;
+  width: 100%;
   box-shadow: 1px 1px 3px #333;
   background: #c3c3c3; /* Old browsers */
   /* IE9 SVG, needs conditional override of 'filter' to 'none' */
