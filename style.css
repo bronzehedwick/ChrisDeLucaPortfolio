@@ -8,6 +8,79 @@
  * Font declarations and misc
  */
 @font-face {
+    font-family: 'TitilliumText22LThin';
+    src: url('fonts/titillium/TitilliumText22L001-webfont.eot');
+    src: url('fonts/titillium/TitilliumText22L001-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/titillium/TitilliumText22L001-webfont.woff') format('woff'),
+         url('fonts/titillium/TitilliumText22L001-webfont.ttf') format('truetype'),
+         url('fonts/titillium/TitilliumText22L001-webfont.svg#fonts/tillium/TitilliumText22LThin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'TitilliumText22LLight';
+    src: url('fonts/titillium/TitilliumText22L002-webfont.eot');
+    src: url('fonts/titillium/TitilliumText22L002-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/titillium/TitilliumText22L002-webfont.woff') format('woff'),
+         url('fonts/titillium/TitilliumText22L002-webfont.ttf') format('truetype'),
+         url('fonts/titillium/TitilliumText22L002-webfont.svg#fonts/tillium/TitilliumText22LLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'TitilliumText22LRegular';
+    src: url('fonts/titillium/TitilliumText22L003-webfont.eot');
+    src: url('fonts/titillium/TitilliumText22L003-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/titillium/TitilliumText22L003-webfont.woff') format('woff'),
+         url('fonts/titillium/TitilliumText22L003-webfont.ttf') format('truetype'),
+         url('fonts/titillium/TitilliumText22L003-webfont.svg#fonts/tillium/TitilliumText22LRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'TitilliumText22LMedium';
+    src: url('fonts/titillium/TitilliumText22L004-webfont.eot');
+    src: url('fonts/titillium/TitilliumText22L004-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/titillium/TitilliumText22L004-webfont.woff') format('woff'),
+         url('fonts/titillium/TitilliumText22L004-webfont.ttf') format('truetype'),
+         url('fonts/titillium/TitilliumText22L004-webfont.svg#fonts/tillium/TitilliumText22LMedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'TitilliumText22LBold';
+    src: url('fonts/tillium/TitilliumText22L005-webfont.eot');
+    src: url('fonts/tillium/TitilliumText22L005-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/tillium/TitilliumText22L005-webfont.woff') format('woff'),
+         url('fonts/tillium/TitilliumText22L005-webfont.ttf') format('truetype'),
+         url('fonts/tillium/TitilliumText22L005-webfont.svg#fonts/tillium/TitilliumText22LBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'TitilliumText22LXBold';
+    src: url('fonts/titillium/TitilliumText22L006-webfont.eot');
+    src: url('fonts/titillium/TitilliumText22L006-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/titillium/TitilliumText22L006-webfont.woff') format('woff'),
+         url('fonts/titillium/TitilliumText22L006-webfont.ttf') format('truetype'),
+         url('fonts/titillium/TitilliumText22L006-webfont.svg#fonts/tillium/TitilliumText22LXBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
     font-family: 'CodaHeavy';
     src: url('fonts/coda/coda-Heavy-webfont.eot');
     src: url('fonts/coda/coda-Heavy-webfont.eot?#iefix') format('embedded-opentype'),
@@ -48,12 +121,9 @@
  * Main tag and content styling
  */
 body {
-  min-width: 960px;
-  margin: 0 auto;
   background: #D4D4D4;
   font-family: Helvetica, Arial, "Nimbus Sans L", sans-serif;
   font-size: 82.5%;
-  text-shadow: 1px 1px 0 #fff;
   color: #212121;
   line-height: 1.2em;
 }
@@ -74,20 +144,17 @@ a:hover, a:focus {
   		transition: color .15s linear;
 }
 h1, h2, h3 {
-  font-family: 'CodaHeavy';
+  font-family: 'TitilliumText22LLight';
   color: #DD4B4B;
-  letter-spacing: 1.4px;
-  text-shadow: 2px 2px 0 #000;
 }
 h1 {
-  text-shadow: 2px 4px 0 #000;
   font-size: 2.4em;
 }
 h2 {
   font-size: 2.0em;
 }
 h3 {
-   font-size: 1.8em;
+  font-size: 1.8em;
 }
 p {
 	margin-bottom: 10px;
@@ -103,22 +170,8 @@ strong {
 }
 header {
   padding: 0 120px 0;
-  font-family: 'Ubuntu', sans-serif;
   position: relative;
-}
-header p {
-  margin: 15px 0 0 30px;
-  width: 350px;
-  float: left;
-  line-height: 1.7;
-}
-header h1 {
-  float: left;
-  margin: 20px 0 0 20px;
-}
-#header-bg {
   height: 100px;
-  width: 100%;
   box-shadow: 1px 1px 3px #333;
   background: #c3c3c3; /* Old browsers */
   /* IE9 SVG, needs conditional override of 'filter' to 'none' */
@@ -131,10 +184,22 @@ header h1 {
   background: linear-gradient(top,  #c3c3c3 0%,#b6b6b6 47%,#b0b0b0 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c3c3c3', endColorstr='#b0b0b0',GradientType=0 );
 }
+header p {
+  margin: 5px 0 0 20px;
+  line-height: 1.7;
+}
+header h1 {
+  float: left;
+  text-shadow: 1px 1px 0 #fff;
+  margin: 20px 0 0 20px;
+}
+header br {
+  margin: 15px 0;
+}
 #headshot {
-  border-left: 8px solid #DD4B4B;
-  border-right: 8px solid #DD4B4B;
-  border-bottom: 8px solid #DD4B4B;
+  border-left: 4px solid #DD4B4B;
+  border-right: 4px solid #DD4B4B;
+  border-bottom: 4px solid #DD4B4B;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   box-shadow: 4px 4px 2px #888;
@@ -191,8 +256,8 @@ section#options button:hover {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4d4d4', endColorstr='#ebebeb',GradientType=0 );
 }
 #social-icons {
+  margin: 0 40px 0 0;
 	float: right;
-	margin: 40px 40px 0 0;
 }
 #social-icons li {
 	display: inline;
@@ -213,7 +278,7 @@ section#options button:hover {
 }
 footer {
   width: 100%;
-  background: #6B6B6B;
+  background: url('images/mountain.png') #6B6B6B no-repeat;
   text-shadow: none;
   box-shadow: 0 -2px 15px #333;
 }
