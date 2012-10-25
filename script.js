@@ -63,7 +63,7 @@ function main () {
       previousText = textSix;
     }
   };
-  
+
   function scrollTo(hash) {
     location.hash = "#" + hash;
 	};
