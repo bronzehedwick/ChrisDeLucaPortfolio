@@ -215,19 +215,16 @@ header br {
   background: url(images/linkedin.png) 0 -32px no-repeat transparent;
 }
 #content {
-  margin: 0 auto;
-  width: 100%;
+  margin: 150px auto;
 }
 
 /* Navigation */
 nav#options {
-  margin: 150px 0 0 20px;
-  padding: 20px;
+  width: 300px;
   font-size: 1.3em;
+  float: right;
 }
 nav#options #show-buttons {
-  border-bottom: 13px solid #B1B1B1;
-  border-radius: 25px;
 }
 nav#options button {
   border: 1px solid #BBB;
