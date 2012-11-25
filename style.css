@@ -63,7 +63,21 @@ a {
   	  -o-transition: color .5s linear;
   		transition: color .5s linear;
 }
+#description a {
+  color: #fff;
+  -webkit-transition: color .5s linear;
+  	-moz-transition: color .5s linear;
+  	  -o-transition: color .5s linear;
+  		transition: color .5s linear;
+}
 a:hover, a:focus {
+  color: #DD4B4B;
+  -webkit-transition: color .15s linear;
+  	-moz-transition: color .15s linear;
+  	  -o-transition: color .15s linear;
+  		transition: color .15s linear;
+}
+#description a:hover, #description a:focus {
   color: #DD4B4B;
   -webkit-transition: color .15s linear;
   	-moz-transition: color .15s linear;
