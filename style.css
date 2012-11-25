@@ -130,6 +130,8 @@ header br {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   box-shadow: 4px 4px 2px #888;
+  padding: 15px;
+  background: #a4a4a4;
 }
 #linkedin {
   width: 32px;
@@ -185,15 +187,14 @@ nav#options li:hover {
 	text-decoration: none;
 }
 #description {
-  display:none;
+  position: absolute;
+  z-index: 9999;
   width: 360px;
+  top: 240px;
   padding: 20px;
   line-height: 1.4em !important;
-  font-family: 'Ubuntu', sans-serif;
-  background: #D4D4D4;
-  border-radius: 10px;
-  box-shadow: inset 1px 2px 5px #000;
-  margin: 30px 0 0 55px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
 }
 
 /* Footer */

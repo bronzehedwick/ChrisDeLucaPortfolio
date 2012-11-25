@@ -5,20 +5,21 @@
 	<title>Chris DeLuca</title>
     <link rel="stylesheet" type="text/css" href="reset.css" />
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <link href='http://fonts.googleapis.com/css?family=Ubuntu:500' rel='stylesheet' type='text/css'>
     <link href="favicon.ico" rel="icon" type="image/ico" />
     <!--[if lt IE 9]>
         <script src="dist/html5shiv.js"></script>
     <![endif]-->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script src="utils.js"></script>
     <script src="cube.js"></script>
+    <script src="script.js"></script>
 </head>
 
 <body>
 
     <header>
         <a href="https://github.com/bronzehedwick"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
-        <img id="headshot" class="float-left" src="images/headshot.jpg" alt="Chris DeLuca" />
+        <img id="headshot" class="float-left" src="http://www.gravatar.com/avatar/9f11cd644fefcfab33238e0e1cfd36c1.png" alt="Chris DeLuca" />
         <h1>Chris DeLuca</h1><br />
         <p class="float-left">Front end web developer</p>
         <ul id="social-icons">
@@ -33,40 +34,40 @@
       <nav id="options">
         <h2>Projects</h2>
         <ul id="show-buttons">
-          <li id="button-front" class="show-front">Paradux</li>
-          <li id="button-back" class="show-back">Crooks &amp; Nannies</li>
-          <li id="button-right" class="show-right">Video</li>
-          <li id="button-left" class="show-left">dotfiles</li>
-          <li id="button-top" class="show-top">Chrisland</li>
-          <li id="button-bottom" class="show-bottom">purple</li>
+          <li id="button-front" class="show-front">Dice IO</li>
+          <li id="button-back" class="show-back">Paradux Comics</li>
+          <li id="button-right" class="show-right">Git growl</li>
+          <li id="button-left" class="show-left">Crooks &amp; Nannies</li>
+          <li id="button-top" class="show-top">Impactjs Colorscheme</li>
+          <li id="button-bottom" class="show-bottom">Adobe Export Scripts</li>
         </ul>
       </nav>
       <section class="container">
         <div id="cube" class="show-front">
-           <figure class="front"><a href="http://paradux-comics.com"><img src="images/paradux.png" alt="Paradux Comics" /></a></figure>
-           <figure class="back"><a href="http://crooksandnannies.com"><img src="images/crooks_and_nannies.png" alt="Crooks and Nannies" /></a></figure>
-           <figure class="right"><iframe width="400" height="225" src="http://www.youtube.com/embed/soX8O5wdb_E?list=UUU1qBy5Ox7ZxRdEyTCbRQhg&amp;hl=en_US" ></iframe></figure>
-           <figure class="left"><a href="https://github.com/bronzehedwick/dotfiles"><img src="images/dotfiles.png" alt="dotfiles" /></a></figure>
-           <figure class="top"><a href="http://chrisdeluca.wordpress.com"><img src="images/chrisland.png" alt="chrisland" /></a></figure>
-           <figure class="bottom"></figure>
+           <figure class="front"><a href="http://hypnotictoast.com/dice-io"><img src="images/diceio.png" alt="Dice IO" /></a></figure>
+           <figure class="back"><a href="http://paradux-comics.com"><img src="images/paradux.png" alt="Paradux Comics" /></a></figure>
+           <figure class="right"><a href="http://github.com/bronzehedwick/git-growl"><img src="http://hypnotictoast.com/images/git_growl_screenshot.png" alt="Git growl" /></a></figure>
+           <figure class="left"><a href="http://crooksandnannies.com"><img src="images/crooks_and_nannies.png" alt="Crooks and Nannies" /></a></figure>
+           <figure class="top"><a href="http://github.com/bronzehedwick/impactjs-colorscheme"><img src="http://hypnotictoast.com/images/impactjs_colorscheme_screenshot.png" alt="chrisland" /></a></figure>
+           <figure class="bottom"><a href="http://github.com/bronzehedwick/Adobe%20Export%20Scripts"><img src="http://hypnotictoast.com/images/illustraitor_scripts_screenshot.png" alt="Adobe Export Scripts" /></a></figure>
          </div>
-      </section>
-    </section>
 
-    <section id="description">
-      <p class="visible" id="desc-one"><img class="float-left" src="images/pdux-head.png" alt="Paradux Duck" /><a href="http://paradux-comics">Paradux Comics</a> is a joke-a-day webcomic I started with my girlfriend <a href="http://laurieberenhaus.tumblr.com/">Laurie</a>. Originally it was a way for the two of us to collaborate, I in writing and she in drawing, but it grew into a project with enough integrity to stand on it's own.<br /><br /> The stips are mostly one panel, drawing inspiration from <em>Calvin &amp; Hobbes</em> and <em>The Far Side</em> among others. The comic is currently on hiatus, as Laurie is studying CGI for a year in Florida!</p>
-      <p class="hidden" id="desc-two"><img class="float-left" src="images/riggs-and-murtaugh.jpg" alt="Crooks and Nannies on Stage" /><a href="http://crooksandnannies.com">Crooks and Nannies</a> is a sketch comedy and film production trifecta comprising myself, Dave Beede and Andy McCarthy. We started in 2004 in college, making short films and working on the campus sketch comedy show. We're now working on a feature, <em>The Night The Ants Came!</em><br /><br /> Check out some of our sketches at <a href="http://crooksandnannies.com">http://crooksandnannies.com</a>, or click the <strong>Video</strong> tab.</p>
-      <p class="hidden" id="desc-three">A recently unearthed <a href="http://crooksandnannies.com">Crooks and Nannies</a> sketch, <em>The Man From The Future</em> was originally shot in college in 2008.<br /><br /> Also, check out that transparent green background! Looks like nuclear waste!<br /><br />More sketches are coming soon (from this decade, even!).</p>
-      <p class="hidden" id="desc-four">My personal *nix configuration files, hosted at <a href="http://github.com">Github</a>.<br /><br /> I use the <a href="http://www.vim.org/">Vim</a> editor with the <a href="http://vim.spf13.com">spf13</a> configuration, so my .vimrc files are my personal customizations on top of that.<br /><br /> It also has some configurations for <a href="http://betterthangrep.com/">ack</a>, <a href="http://git-scm.com">git</a>, and <a href="http://www.jshint.com/">JS Hint</a>.</p>
-      <p class="hidden" id="desc-five">My personal blog. It mostly deals with my experiences with cancer with some other stuff thrown in there for good measure. It not the most updated blog (to be generous), but it's never completely neglected.</p>
-      <p class="hidden" id="desc-six">You've seen beyond the vail; <em>The Matrix</em> is made clear...<br /><br />...a purple tinted clear, that is.</p>
+      <section id="description">
+      <figcaption class="visible" id="desc-one"><a href="http://hypnotictoast.com/dice-io">Dice IO</a> is a simple, fully responsive and open source table-top RPG dice rolling web app. Geeks unite!</figcaption>
+        <figcaption class="hidden" id="desc-two"><a href="http://paradux-comics">Paradux Comics</a> is a joke-a-day webcomic I started with my girlfriend <a href="http://laurieberenhaus.tumblr.com/">Laurie</a>. I write and code, she in draws.</figcaption>
+        <figcaption class="hidden" id="desc-three"><a href="http://github.com/bronzehedwick/git-growl">Git growl</a> is a small library that sends growl notifications for local git events. Admittedly useless, I think it's cool. Also works on Liunx with lib-notify.</figcaption>
+        <figcaption  class="hidden" id="desc-four"><a href="http://crooksandnannies.com">Crooks and Nannies</a> is a sketch comedy and film production trifecta comprising myself, Dave Beede and Andy McCarthy.</figcaption>
+        <figcaption class="hidden" id="desc-five">A <a href="http://vim.org">Vim</a> colorscheme based on <a href="http://impactjs.com">Impactjs.com's</a> syntax highlighting theme.</figcaption>
+        <figcaption class="hidden" id="desc-six">Illustraitor (and more limited, Photoshop) scripts that export layers to JSON. Originally developed to ease art integration for game development.</figcaption>
+      </section>
+      </section>
     </section>
 
     <footer class="clearfix">
         <section id="badges">
           <figure id="stackoverflow">
             <a href="http://stackoverflow.com/users/1143575/bronzehedwick">
-                <img src="http://stackoverflow.com/users/flair/1143575.png?theme=dark" width="208" height="58" alt="profile for bronzehedwick at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for bronzehedwick at Stack Overflow, Q&amp;A for professional and enthusiast programmers" />
+                <img src="http://stackoverflow.com/users/flair/1143575.png?theme=default" width="208" height="58" alt="profile for bronzehedwick at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for bronzehedwick at Stack Overflow, Q&amp;A for professional and enthusiast programmers" />
             </a>
           </figure>
           <figure id="github-badge">
